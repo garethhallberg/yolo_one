@@ -3,6 +3,7 @@ import About from "@/components/About"
 import Experience from "@/components/Experience"
 import Contact from "@/components/Contact"
 import Navbar from "@/components/Navbar"
+import DigitalTwinChat from "@/components/DigitalTwinChat"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Experience />
       <Contact />
+      <DigitalTwinChat />
     </div>
   )
 }
